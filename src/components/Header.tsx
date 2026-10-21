@@ -1,14 +1,7 @@
 import { NavLink } from "react-router-dom";
 import "./Header.css";
+import { links } from "../data/link.ts";
 
-const links = [
-    { to: "/", label: "Início" },
-    { to: "/produtos", label: "Produtos" },
-    { to: "/contato", label: "Contato" },
-    { to: "/localizacao", label: "Localização" },
-    
-
-];
 
 export default function Header() {
     return (
