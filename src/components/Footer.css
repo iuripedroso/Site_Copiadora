@@ -54,3 +54,7 @@ footer {
 /* .footer-guarapuava{
     margin-right: 10px;
 } */
+
+.copyright.container {
+    overflow: hidden;
+}
