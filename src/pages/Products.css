@@ -1,0 +1,18 @@
+.pagina-produtos { padding-top: 80px; padding-bottom: 120px; }
+
+.pagina-titulo { margin-bottom: 60px; }
+.sobretitulo {
+  font-size: 12px;
+  font-weight: 600;
+  letter-spacing: 2px;
+  text-transform: uppercase;
+  color: var(--cinza);
+}
+.pagina-titulo h1 { font-family: var(--serif); font-size: 52px; font-weight: 400; margin: 16px 0 12px; }
+.pagina-titulo p { font-size: 18px; color: var(--cinza); }
+
+.grade-produtos {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 60px 40px;
+}
