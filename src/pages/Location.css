@@ -1,0 +1,8 @@
+.pagina-localizacao { padding-top: 80px; padding-bottom: 80px; }
+
+.pagina-localizacao .pagina-titulo {
+  border-bottom: 1px solid var(--linha);
+  padding-bottom: 56px;
+}
+
+.lista-lojas { display: flex; flex-direction: column; gap: 100px; }

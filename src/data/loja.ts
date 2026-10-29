@@ -13,7 +13,7 @@ export const lojas: Loja[] = [
   },
   {
     id: 2,
-    nome: "Saldanha Marinho",
+    nome: "Cartuchos & Cia",
     endereco: "Rua Saldanha Marinho, 1049 – Guarapuava/PR",
     telefone: "(42) 3623-7345",
     horarios: [
