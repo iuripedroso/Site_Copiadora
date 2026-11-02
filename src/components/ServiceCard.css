@@ -1,0 +1,4 @@
+.card-servico { display: flex; flex-direction: column; }
+.card-servico-foto { aspect-ratio: 290 / 360; margin-bottom: 28px; }
+.card-servico h3 { font-family: var(--serif); font-size: 24px; font-weight: 400; }
+.card-servico p { font-size: 15px; color: var(--cinza); margin: 6px 0 18px; }

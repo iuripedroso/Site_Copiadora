@@ -1,0 +1,4 @@
+.card-loja { display: flex; flex-direction: column; }
+.card-loja-foto { aspect-ratio: 620 / 400; margin-bottom: 28px; }
+.card-loja h3 { font-family: var(--serif); font-size: 26px; font-weight: 400; }
+.card-loja p { font-size: 15px; color: var(--cinza); margin: 6px 0 18px; }

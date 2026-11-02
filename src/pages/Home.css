@@ -1,0 +1,163 @@
+.destaque {
+    position: relative;
+    height: calc(100svh - var(--altura-header));
+    min-height: 520px;
+    display: flex;
+    align-items: flex-end;
+    padding-bottom: 52px;
+    background: #8F877A url("/fotos/hero-image08.jpeg") top / cover;
+    color: #fff;
+}
+
+.destaque::before {
+    content: "";
+    position: absolute;
+    inset: 0;
+    background: linear-gradient(to bottom, rgba(0, 0, 0, 0) 35%, rgba(0, 0, 0, 0.55));
+}
+
+.destaque-conteudo {
+    position: relative;
+    width: 100%;
+}
+
+.destaque h1 {
+    font-family: var(--serif);
+    font-size: 60px;
+    font-weight: 400;
+    line-height: 1.13;
+}
+
+.destaque p {
+    font-size: 18px;
+    color: var(--bege);
+    margin: 20px 0 36px;
+}
+
+.destaque-botoes {
+    display: flex;
+    gap: 16px;
+}
+
+.destaque-botoes .btn {
+    height: 52px;
+}
+
+.introducao {
+    text-align: center;
+    padding-top: 120px;
+    padding-bottom: 72px;
+}
+
+.introducao h2 {
+    font-family: var(--serif);
+    font-size: 40px;
+    font-weight: 400;
+    line-height: 1.3;
+    max-width: 900px;
+    margin: 24px auto 28px;
+}
+
+.introducao p {
+    font-size: 17px;
+    line-height: 1.65;
+    color: var(--cinza);
+    max-width: 720px;
+    margin: 0 auto;
+}
+
+.nosso-jeito {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    min-height: 640px;
+    
+}
+
+.nosso-jeito-texto {
+    background: var(--bege);
+    padding: 80px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.nosso-jeito-texto h2 {
+    font-family: var(--serif);
+    font-size: 40px;
+    font-weight: 400;
+    line-height: 1.25;
+    margin: 24px 0 28px;
+}
+
+.nosso-jeito-texto>p {
+    font-size: 17px;
+    line-height: 1.65;
+    color: var(--cinza);
+    max-width: 440px;
+}
+
+.numeros {
+    display: flex;
+    gap: 60px;
+    border-top: 1px solid #D8D2C6;
+    margin-top: 48px;
+    padding-top: 40px;
+}
+
+.numeros strong {
+    display: block;
+    font-family: var(--serif);
+    font-size: 34px;
+    font-weight: 400;
+}
+
+.numeros span {
+    font-size: 14px;
+    color: var(--cinza);
+}
+
+.servicos {
+    padding-top: 110px;
+    padding-bottom: 70px;
+}
+
+.grade-servicos {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 40px;
+}
+
+.lojas-home {
+    border-top: 1px solid var(--linha);
+    padding-top: 90px;
+    padding-bottom: 90px;
+}
+
+.grade-lojas {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 40px;
+}
+
+.chamada {
+    background: var(--azul);
+    color: #fff;
+    text-align: center;
+    padding: 100px 16px;
+}
+
+.chamada h2 {
+    font-family: var(--serif);
+    font-size: 44px;
+    font-weight: 400;
+}
+
+.chamada p {
+    font-size: 18px;
+    color: #C9D1E0;
+    margin: 16px 0 36px;
+}
+
+.chamada .btn {
+    height: 52px;
+}
