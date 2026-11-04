@@ -58,3 +58,13 @@ footer {
 .copyright.container {
     overflow: hidden;
 }
+
+@media (max-width: 1024px) {
+  .rodape { grid-template-columns: 1fr 1fr; }
+}
+
+@media (max-width: 768px) {
+  footer { padding-top: 56px; }
+  .rodape { grid-template-columns: 1fr; gap: 36px; padding-bottom: 48px; }
+  .copyright { flex-direction: column; gap: 8px; }
+}

@@ -95,3 +95,15 @@
 
 /* Faixa de foto */
 .foto.faixa-foto { height: 480px; background: #8F877A; color: #fff; }
+
+@media (max-width: 1024px) {
+  .contato-grade { grid-template-columns: 1fr; gap: 64px; }
+}
+
+@media (max-width: 768px) {
+  .pagina-contato { padding-top: 48px; padding-bottom: 56px; }
+  .pagina-contato .pagina-titulo { padding-bottom: 40px; }
+  .linha-dupla { grid-template-columns: 1fr; gap: 32px; }
+  .formulario .btn { align-self: stretch; }
+  .foto.faixa-foto { height: 280px; }
+}

@@ -6,3 +6,9 @@
 }
 
 .lista-lojas { display: flex; flex-direction: column; gap: 100px; }
+
+@media (max-width: 768px) {
+  .pagina-localizacao { padding-top: 48px; padding-bottom: 56px; }
+  .pagina-localizacao .pagina-titulo { padding-bottom: 40px; }
+  .lista-lojas { gap: 64px; }
+}

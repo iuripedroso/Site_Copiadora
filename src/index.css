@@ -33,14 +33,6 @@ a {
   padding-right: 80px;
 }
 
-@media (max-width: 768px) {
-  .container {
-    padding-left: 16px;
-    padding-right: 16px;
-  }
-}
-
-/* Título das páginas */
 .sobretitulo {
   font-size: 12px;
   font-weight: 600;
@@ -96,3 +88,20 @@ a {
 .secao-titulo h2 { font-family: var(--serif); font-size: 44px; font-weight: 400; margin-top: 20px; }
 
 .btn-azul { background: var(--azul); color: #fff; border-color: var(--azul); }
+
+@media (max-width: 1024px) {
+  .container { padding-left: 40px; padding-right: 40px; }
+}
+
+@media (max-width: 768px) {
+  :root { --altura-header: 117px; }
+
+  .container { padding-left: 16px; padding-right: 16px; }
+
+  .pagina-titulo { margin-bottom: 40px; }
+  .pagina-titulo h1 { font-size: 36px; }
+  .pagina-titulo p { font-size: 16px; }
+
+  .secao-titulo { margin-bottom: 36px; }
+  .secao-titulo h2 { font-size: 32px; }
+}

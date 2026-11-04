@@ -30,6 +30,7 @@ nav a.active {
 
 .logo {
     font-family: var(--serif);
+    
     font-size: 28px;
     font-weight: 500;
 }
@@ -42,4 +43,49 @@ nav a.active {
     font-weight: 600;
     padding: 9px 20px;
     border-radius: 18px;
+}
+
+.menu-botao {
+  display: none;
+  width: 40px;
+  height: 40px;
+  background: none;
+  border: none;
+  font-size: 24px;
+  color: var(--texto);
+  cursor: pointer;
+}
+
+@media (max-width: 768px) {
+  .aviso { font-size: 12px; line-height: 16px; padding: 10px 16px; }
+
+  .barra {
+    position: relative;
+    grid-template-columns: 1fr auto auto;
+    gap: 12px;
+    height: 64px;
+  }
+
+  .logo { order: 1; font-size: 22px; }
+  .btn-whats { order: 2; font-size: 13px; padding: 8px 14px; }
+  .menu-botao { display: block; order: 3; }
+
+  nav {
+    display: none;
+    position: absolute;
+    top: 100%;
+    left: 0;
+    right: 0;
+    z-index: 10;
+    flex-direction: column;
+    gap: 0;
+    background: #fff;
+    border-bottom: 1px solid var(--linha);
+    padding: 0 16px;
+  }
+  nav.aberto { display: flex; }
+
+  nav a,
+  nav a.active { padding: 16px 0; border-bottom: 1px solid var(--linha); }
+  nav a:last-child { border-bottom: none; }
 }

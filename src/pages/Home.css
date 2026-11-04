@@ -5,7 +5,7 @@
     display: flex;
     align-items: flex-end;
     padding-bottom: 52px;
-    background: #8F877A url("/fotos/hero-image08.jpeg") top / cover;
+    background: #8F877A url("/fotos/hero-image05.png") top / cover;
     color: #fff;
 }
 
@@ -160,4 +160,39 @@
 
 .chamada .btn {
     height: 52px;
+}
+
+@media (max-width: 1024px) {
+  .nosso-jeito-texto { padding: 56px 40px; }
+  .numeros { gap: 32px; }
+  .grade-servicos { grid-template-columns: repeat(2, 1fr); }
+}
+
+@media (max-width: 768px) {
+  .destaque { padding-bottom: 36px; }
+  .destaque h1 { font-size: 38px; }
+  .destaque h1 br { display: none; }
+  .destaque p { font-size: 16px; margin: 14px 0 24px; }
+  .destaque-botoes { flex-wrap: wrap; gap: 12px; }
+
+  .introducao { padding-top: 64px; padding-bottom: 48px; }
+  .introducao h2 { font-size: 28px; }
+
+  .nosso-jeito { grid-template-columns: 1fr; min-height: 0; }
+  .nosso-jeito .foto { aspect-ratio: 4 / 3; }
+  .nosso-jeito-texto { padding: 48px 16px; }
+  .nosso-jeito-texto h2 { font-size: 30px; }
+  .nosso-jeito-texto h2 br { display: none; }
+  .numeros { flex-wrap: wrap; gap: 24px 32px; }
+  .numeros strong { font-size: 28px; }
+
+  .servicos { padding-top: 64px; padding-bottom: 48px; }
+  .grade-servicos { gap: 32px 16px; }
+
+  .lojas-home { padding-top: 56px; padding-bottom: 56px; }
+  .grade-lojas { grid-template-columns: 1fr; }
+
+  .chamada { padding: 64px 16px; }
+  .chamada h2 { font-size: 30px; }
+  .chamada p { font-size: 16px; }
 }

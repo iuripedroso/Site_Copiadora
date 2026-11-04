@@ -32,3 +32,10 @@
   margin-top: 8px;
   align-self: flex-start;
 }
+
+@media (max-width: 768px) {
+  .card-foto { margin-bottom: 10px; }
+  .card-produto h3 { font-size: 18px; }
+  .card-descricao,
+  .card-preco { font-size: 14px; }
+}
